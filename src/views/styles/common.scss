@@ -1,0 +1,21 @@
+@font-face {
+   font-family: circeRounded;
+   src: url(../../src/assets/fonts/CirceRounded-Regular.otf);
+}
+* {
+   margin: 0;
+   padding: 0;
+}
+body{
+  font-family: circeRounded;
+  font: 18px/1.4 circeRounded;
+   min-height: 100vh;
+   box-sizing: border-box;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+   color: #55280c,;
+   background: #bef574;
+   // #c79fef   #fffdd0  #beа574
+}
