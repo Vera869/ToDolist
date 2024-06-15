@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react'
 import S from './index.module.scss'
 import { useToDoStore } from '../../data/stores/toDoStore'
+import { Form } from '../components/form/formInputs'
 
 export const App: React.FC = () => {
-   console.log({ useToDoStore });
+   // console.log({ useToDoStore });
    const [
       tasks,
       createTask,
@@ -21,10 +22,7 @@ export const App: React.FC = () => {
       <article className={S.article}>
          <section className={S.articleSection}>
             <h1 className={S.articleSectionHeader}>My todo list</h1>
-            <form className={S.articleSectionForm}>
-               <input className={S.articleSectionFormInput} type='text'/>
-               <input className={S.articleSectionFormInput} type='text'/>
-            </form>
+           <Form/>
          </section>
          <section className={S.articleSectionTodos}>
             <input className={S.sectionTodosCheckbox} type='checkbox'/>

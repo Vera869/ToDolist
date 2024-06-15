@@ -17,5 +17,11 @@ body{
    padding: 1rem;
    color: #55280c,;
    background: #bef574;
-   // #c79fef   #fffdd0  #beа574
+   // лаванда #c79fef  беж #fffdd0 шоколад #55280c фисташка #bef574
 }
+input[type="text"] {
+   font-family: inherit;
+   font-size: inherit;
+   line-height: inherit;
+   margin: 0;
+ }
